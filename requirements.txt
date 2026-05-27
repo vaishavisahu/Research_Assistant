@@ -1,0 +1,11 @@
+# Core agent stack (Lessons 3–6)
+openai-agents>=0.2.0 
+olostep>=0.1.0 #web search + scrape tools for papers 
+python-dotenv>=1.0.0 #load env variables from .env file into os.environ
+pydantic>=2.0.0 #validates PaperSummary (lession 5)
+
+# UI (Lessons 7–8) — installed now so Lesson 7 is smooth
+reflex>=0.6.0
+
+# PDF text extraction (Lesson 9)
+pypdf>=5.0.0
